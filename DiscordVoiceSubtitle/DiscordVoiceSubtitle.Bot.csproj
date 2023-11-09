@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DisCatSharp" Version="10.4.2-nightly-046" />
+		<PackageReference Include="DisCatSharp.Configuration" Version="10.4.2-nightly-046" />
+		<PackageReference Include="DisCatSharp.Hosting" Version="10.4.2-nightly-046" />
+		<PackageReference Include="DisCatSharp.Hosting.DependencyInjection" Version="10.4.2-nightly-046" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DisCatSharp.ApplicationCommands" Version="10.4.2-nightly-046" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="DisCatSharp.Common" Version="10.4.2-nightly-046" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DisCatSharp.Interactivity" Version="10.4.2-nightly-046" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="DisCatSharp.Lavalink" Version="10.4.2-nightly-046" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="DisCatSharp.VoiceNext" Version="10.4.2-nightly-046" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="DisCatSharp.VoiceNext.Natives" Version="10.4.2-nightly-046" />
+	</ItemGroup>
+	
+</Project>
