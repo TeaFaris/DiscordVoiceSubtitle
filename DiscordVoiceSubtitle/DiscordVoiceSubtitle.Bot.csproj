@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
@@ -36,6 +36,10 @@
 	
 	<ItemGroup>
 		<PackageReference Include="DisCatSharp.VoiceNext.Natives" Version="10.4.2-nightly-046" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\DiscordVoiceSubtitle.Controllers\DiscordVoiceSubtitle.Controllers.csproj" />
 	</ItemGroup>
 	
 </Project>

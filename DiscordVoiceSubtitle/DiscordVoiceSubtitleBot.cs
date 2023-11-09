@@ -1,4 +1,6 @@
-﻿namespace DiscordVoiceSubtitle.Bot
+﻿using DiscordVoiceSubtitle.Controllers;
+
+namespace DiscordVoiceSubtitle.Bot
 {
     internal class DiscordVoiceSubtitleBot : DiscordHostedService, IDiscordVoiceSubtitleBot
     {
@@ -12,7 +14,7 @@
         /// </summary>
         void RegisterCommands(ApplicationCommandsExtension commandsExtension)
         {
-            var registeredTypes = commandsExtension.RegisterApplicationCommandsFromAssembly();
+            var registeredTypes = commandsExtension.RegisterApplicationCommandsFromAssembly<ServerCommands>();
 
             if (!registeredTypes.Any())
             {
